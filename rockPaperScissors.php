@@ -112,8 +112,8 @@ for($i=1;$i<=50;$i++){
 			$second_round = array(
 				"round" => "second ".$i,
 				"winner" => "player4",
-				"choice1" => $player3 . "->Player3",
-				"choice2" => $player4 . "->Player4"
+				"choice1" => $choose_p3 . "->Player3",
+				"choice2" => $choose_p4 . "->Player4"
 			);
 			//if player 1 and 4 wins they play again	
 			
